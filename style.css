@@ -5,25 +5,26 @@
 }
   
   body {
-    font-family: 'Inter', sans-serif;
+   
+    font-family: 'Inter', sans-serif; 
+    
   }
   .data-container { 
-    
-    padding: 140px 220px;
+   
+    margin: 140px 220px;
     display: flex;
     align-items: center;
    
   }
-.data-block {
+  .data-block {
 
   display: flex;
-  flex-direction: column;
- 
-  
+  flex-direction: column; 
+   
 }
 
 
-.data-title{
+  .data-title{
   
     font-weight: 700; 
     font-size: 72px;
@@ -51,6 +52,7 @@
     line-height: 30px;
     letter-spacing: -0.02em; 
     color: #212529;
+  
   }
 
   button {
@@ -85,6 +87,8 @@
     background-repeat: no-repeat;
     background-position: 0% 130%;
   } 
+  
+  
 
   .sponsors {
     display: flex;
@@ -96,14 +100,17 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-    @media screen and(max-width:767px){
-
+    @media screen and(max-width:768px){
+      
       .data-container {
-
+        
+        margin: 0;
         display: flex;
         flex-direction: column;
+      
       }      
 
+    
       .data-title {
         
         font-weight: 350;
@@ -131,11 +138,26 @@
         height: 50%;
       }
     
+      .sponsors-block {
+       
+          /* display: flex;
+          flex-direction: column; */
+
+      }
+
+      .item {
+
+        width: 100%;
+        height: 50%;
+
+      } 
+
       .sponsors{
         display: flex;
         flex-direction: column;
+        
       }
-    
+      
       
     
     }
