@@ -1,5 +1,6 @@
   body {
-    /* display: inline-block; */
+    max-width: 1921px;
+    ;
 
   }
   .data-container { 
@@ -82,8 +83,9 @@
     text-align: center;
     letter-spacing: -0.02em;
     color: #212529;
-  
-
+    padding: 0px 220px 0px 0px;
+    
+S
 
   }
 
